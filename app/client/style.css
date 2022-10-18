@@ -12,6 +12,10 @@
  */
 body {
   --bs-light-rgb: var(--matr-navbar-bg-rgb);
+  background: url("/images/murphys-new-background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  --bs-dark: #1B4F24;
+  --bs-dark-rgb: #1B4F24;
 }
 
 /* Set the alert background on the signin and signup pages. */
@@ -25,4 +29,22 @@ body {
   color: var(--bs-dark);
   padding-top: 10px;
   padding-bottom: 20px;
+}
+#topMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+#centerText {
+  color: white;
+  height: 500px;
+}
+
+#bottomMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+a.nav-link{
+  color: white;
 }
